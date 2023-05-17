@@ -1,3 +1,8 @@
 
 this is changes form new test document gitx
+<<<<<<< HEAD
+
+=======
+this is chnage from tcs selenium
+>>>>>>> bc6ba988582d1e90aed0be67d47f88e83cd94034
 this is a change form gitx
