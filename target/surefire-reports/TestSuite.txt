@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 31.403 s <<< FAILURE! - in TestSuite
+TestNG.LoginTest.loginWithWrongCredentials  Time elapsed: 1.406 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (389, 710)
+  (Session info: headless chrome=113.0.5672.64)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-MQJN69E', ip: '192.168.248.249', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad16fe67b5869821949cccb5522bb539, clickElement {id=bfee470b-e22c-4191-b43c-bfa067856edb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52189/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ad16fe67b5869821949cccb5522bb539)] -> css selector: input[id='login']]
+Session ID: ad16fe67b5869821949cccb5522bb539
+	at TestNG.LoginTest.loginWithWrongCredentials(LoginTest.java:21)
+
+TestNG.LoginTest.validateLogin[selenium3@gmail.com, Selenium@123](2)  Time elapsed: 1.473 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (389, 697)
+  (Session info: headless chrome=113.0.5672.64)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-MQJN69E', ip: '192.168.248.249', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671c5f5a1088ae6db24af2097a440fbc, clickElement {id=1459f2c3-1762-4f3b-9c7f-36bb192cb777}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52243/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (671c5f5a1088ae6db24af2097a440fbc)] -> css selector: input[id='login']]
+Session ID: 671c5f5a1088ae6db24af2097a440fbc
+	at TestNG.LoginTest.validateLogin(LoginTest.java:15)
+
